@@ -1,6 +1,7 @@
 {
     "name": "renext/lara_currency",
     "description": "It shows currency rates",
+    "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
