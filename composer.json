@@ -1,0 +1,30 @@
+{
+    "name": "renext/lara_currency",
+    "description": "It shows currency rates",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Renext\\LaraCurrency\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgeny Reutov",
+            "email": "rennext@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^9.19",
+        "illuminate/routing": "^9.19",
+        "illuminate/http": "^9.19"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Renext\\LaraAscii\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
