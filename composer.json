@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Renext\\LaraAscii\\ServiceProvider"
+                "Renext\\LaraCurrency\\ServiceProvider"
             ]
         }
     },

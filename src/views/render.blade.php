@@ -10,10 +10,17 @@
 <body>
 
 
-<h1>Render for renext/lara-currency packet</h1>
+<h1>Currency Rates</h1>
 
-<pre>{!! $content !!}</pre>
-
+<br>
+<hr>
+<br>
+<div style="padding: 10px">
+    <b>USD</b> - {{ $rates['USD'] }},
+</div>
+<div style="padding: 10px">
+    <b>EUR</b> - {{ $rates['EUR'] }}
+</div>
 
 </body>
 </html>
